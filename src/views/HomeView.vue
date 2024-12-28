@@ -8,8 +8,9 @@ import OurWork from '../components/home/OurWork.vue';
     <MainPanel></MainPanel>
     <WhoWeAre></WhoWeAre>
     <OurWork></OurWork>
+    <br>
     <center>
-        <h4>- 正 · 在 · 施 · 工 -</h4>
+        <h4>正 在 施 工</h4>
         <p>本网站正在开发，敬请期待</p>
     </center>
 </template>

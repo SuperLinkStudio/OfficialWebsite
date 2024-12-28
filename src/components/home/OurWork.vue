@@ -7,15 +7,19 @@
         <div class="card-table">
             <div class="card">
                 <h3>Meanless</h3>
-                <b>正 · 在 · 开 · 发</b>
+                <b>正 在 开 发</b>
             </div>
             <div class="card">
                 <h3>Hyper Knowledge</h3>
-                <b>正 · 在 · 开 · 发</b>
+                <b>正 在 开 发</b>
             </div>
             <div class="card">
                 <h3>Hyper Authorize Platform</h3>
-                <b>正 · 在 · 开 · 发</b>
+                <b>正 在 开 发</b>
+            </div>
+            <div class="card">
+                <h3>Hyper UI</h3>
+                <b>正 在 开 发</b>
             </div>
         </div>
     </div>
@@ -53,7 +57,6 @@
     display: block;
     background: rgb(225, 225, 225);
     min-height: min(50vh, 250px);
-    box-shadow: 0 0 16px rgba(50, 50, 50, 0.1);
     padding: 16px 32px;
 }
 </style>

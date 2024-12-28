@@ -10,3 +10,32 @@ img {
 center {
     text-align: center;
 }
+
+h1, h2, h3, h4, h5, h6, a, p, b, span {
+    color: currentColor;
+}
+
+a {
+    position: relative;
+}
+
+a::after {
+    transition: bottom 0.25s, filter 0.25s, opacity 0.25s;
+    position: absolute;
+    display: block;
+    content: " ";
+    left: 0;
+    right: 0;
+    bottom: -12px;
+    height: 2px;
+    background-color: currentColor;
+    filter: blur(2px);
+    pointer-events: none;
+    opacity: 0;
+}
+
+a:hover::after {
+    bottom: -8px;
+    filter: blur(0);
+    opacity: 1;
+}
